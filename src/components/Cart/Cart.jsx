@@ -7,7 +7,7 @@ const Cart = ({ cart, handleClearCart, children }) => {
     // const cart = props.cart; // option 1
     // const {cart} = props; // option 2
 
-    // console.log(cart);
+
 
     let totalPrice = 0;
     let totalShipping = 0;
