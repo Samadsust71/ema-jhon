@@ -109,7 +109,7 @@ const Shop = () => {
                 </Cart>
             </div>
             <div className='pagination'>
-                <p>{pageNo}</p>
+                
                 <button onClick={()=>handlePrevPage()}>Prev</button>
                {
                 pages.map(page=><button className={page === pageNo? "active":""} onClick={()=>setPageaNo(page)} key={page}>{page}</button>)
